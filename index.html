@@ -10,21 +10,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header id="header" class="header">
         <section class="header-section">
-            <p class="logo header-flex-item">Header Logo</p>
+            <p class="logo header-flex-item"><a class="button-link" href="https://www.theodinproject.com/" target="_blank" rel=”noopener noreferrer”>The Odin Project</a></p>
             <nav class="nav header-flex-item">
-                <a class="nav-link">Link One</a>
-                <a class="nav-link">Link One</a>
-                <a class="nav-link">Link One</a>
+                <a href="#header" class="nav-link">Home</a>
+                <a href="#information" class="nav-link">Information</a>
+                <a href="#sign-up" class="nav-link">Sign Up</a>
+
             </nav>
         </section>
         <section class="header-section">
             <section class="hero-section header-flex-item">
-                <h1 class="main-hero">This website is awesome</h1>
-                <p class="hero-message">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
-                    contrast</p>
-                <button class="sign-up hero-button">Sign Up</button>
+                <h1 class="main-hero">About The Odin Project</h1>
+                <p class="hero-message">The Odin Project provides a free open source coding curriculum that can be taken entirely online.One of the best places to learn the basics of web development.</p>
+                <button class="hero-button"><a class="button-link" href="https://www.theodinproject.com/" target="_blank" rel=”noopener noreferrer”>Sign Up</a></button>
             </section>
             <figure class="header-figure header-flex-item">
                 <img class="header-img" src="./images/pexels-pixabay-276452.jpg" alt="Place for image">
@@ -32,8 +32,72 @@
         </section>
     </header>
     <main>
-        <div class=""></div>
+        <section id="information" class="information">
+            <h2 class="info-heading">Course information</h2>
+            <section class="information-cards">
+                <figure class="info-fig">
+                    <img class="fig-image" src="./images/html.jpg">
+                    <figcaption class="img-caption">Learn HTML.</figcaption>
+                </figure>
+
+                <figure class="info-fig">
+                    <img class="fig-image" src="./images/CSS.jpg">
+                    <figcaption class="img-caption">Learn CSS</figcaption>
+                </figure>
+
+
+                <figure class="info-fig">
+                    <img class="fig-image" src="./images/javascript.jpg">
+                    <figcaption class="img-caption">Learn Javascript</figcaption>
+                </figure>
+
+
+                <figure class="info-fig">
+                    <img class="fig-image" src="./images/NODEJS.webp">
+                    <figcaption class="img-caption">Learn NodeJS</figcaption>
+                </figure>
+
+                <!-- <figure class="info-fig">
+                    <img class="fig-image" src="./images/database.jpeg">
+                    <figcaption class="img-caption">Learn Databases</figcaption>
+                </figure>
+
+                <figure class="info-fig">
+                    <img class="fig-image" src="./images/react.png">
+                    <figcaption class="img-caption">Learn React</figcaption>
+                </figure>
+
+                <figure class="info-fig">
+                    <img class="fig-image" src="./images/ruby.jpeg">
+                    <figcaption class="img-caption">Learn Ruby</figcaption>
+                </figure>
+
+                <figure class="info-fig">
+                    <img class="fig-image" src="./images/ruby-rails.png">
+                    <figcaption class="img-caption">Learn Ruby on Rails</figcaption>
+                </figure> -->
+            </section>
+        </section>
+
+        <section id="qoute" class="qoute-section">
+            <p class="qoute">Start with something simple and small, then expand over time. If people call it a &#39toy&#39 you&#39re definitely onto something.If you&#39re waiting for encouragement from others, you&#39re doing it wrong. By the time people think an idea is good, it&#39s probably too late.</p>
+            <p class="qoute-author">- Aaron Levie</p>
+        </section>
+
+        <section id="sign-up" class="sign-up-section">
+           <article class="sign-up-card">
+              <div>
+                    <p class="action">Call to action!It's time!</p>
+                    <p class="action-caption">Sign up for our product by clicking that button right over there!</p>
+             </div>
+             <div>
+                    <button class="sign-up"><a class="button-link" href="https://www.theodinproject.com/" target="_blank" rel=”noopener noreferrer”>Sign Up</a></button>
+             </div>
+           </article>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p>Copyright © The Odin Project 2021</p>
+    </footer>
 </body>
 </html>
